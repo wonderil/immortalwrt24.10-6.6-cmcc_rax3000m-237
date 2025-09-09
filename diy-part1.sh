@@ -45,7 +45,7 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 
 
 ## Add luci-app-openclash
-git clone -b dev --depth 1 https://github.com/vernesong/OpenClash package/new/OpenClash && mv -n package/new/OpenClash/luci-app-openclash package/new/; rm -rf package/new/OpenClash
+git clone https://github.com/vernesong/OpenClash package/new/OpenClash && mv -n package/new/OpenClash/luci-app-openclash package/new/; rm -rf package/new/OpenClash
 
 mkdir -p package/new/luci-app-openclash/root/etc/openclash/core
 
