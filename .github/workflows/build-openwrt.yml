@@ -150,6 +150,7 @@ jobs:
         echo "账号：root" >> release.txt
         echo "密码：无" >> release.txt
         echo "默认主题：Argon" >> release.txt
+        echo "其它：添加usb 4G/5G支持" >> release.txt
         echo "集成插件：kmod-usb-serial  kmod-usb-net luci-app-openclash aria2 diskman lucky ksmb autoreboot mtwifi-cfg " >> release.txt
         echo "编译源码：https://github.com/padavanonly/immortalwrt-mt798x-6.6" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
